@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Dancing+Script:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 40px;
+    display: flex;
+    justify-content:start;
+    background-color:rgb(198, 37, 37);
+}
+
+.top ul{
+    display: flex;
+    width: 8%;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 70px;
+}
+
+.top ul li{
+    list-style: none;
+}
+.top ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 80px;
+    align-items: center;
+    background-color: white;
+    /* border-bottom: 2px solid red; */
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+nav .logo{
+    display: flex;
+    flex-direction: row;
+}
+
+nav h3{
+    margin-top: 6px;
+    color: rgb(216, 48, 48);
+    font-size: 21px;
+    font-family:"dancing script";
+    font-weight: bold;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    font-family:"dancing script";
+    text-decoration: none;
+    color: rgb(179, 34, 34);
+    font-weight:500;
+    font-size: 15px;
+}
+
+.hero{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65vh;
+    background-color: rgb(194, 28, 28);
+    
+}
+
+.hero {
+    font-family:"dancing script";
+}
+
+.hero h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.hero p{
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+section{
+    margin: 80px;
+    height: 60vh;
+}
+
+section .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section .col-lg-6{
+    width: 50%;
+    height: 50%;
+}
+
+section  .judul{
+    text-align: center;
+    font-family: "dancing script";
+    color: rgb(219, 32, 32);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+section h2{
+    margin-top: 40px;
+    font-family: "dancing script";
+    text-align: left;
+}
+
+section p{
+    margin-right: 25px;
+    margin-top: 7px;
+    font-family: "dancing script";
+    font-size: 18px;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: aliceblue;
+    font-family: "dancing script";
+    background-color: rgb(199, 25, 25);
+}
+
+
